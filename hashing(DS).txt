@@ -1,0 +1,7 @@
+10 34 32 54 65
+KEY=5
+10%5 =0 so place in 0th node
+34%5 =4 so place in 4 node
+32%5 =2 so place in 2 node
+54%5 =4 so place in 1 node due to collision 
+65%5 =0 so place in 3 node due to collision
