@@ -1,0 +1,13 @@
+CREATE  table student(rollno varchar(100),name)
+
+insert:
+insert into student(rollno,name).values()
+
+select:(writing the subquery in it)
+select *from students where per! = (SELECT ceil max(per) as percentage FROM 'students')
+
+checking distinct
+select DISTINCT branch from students
+
+deleting:
+delete from students where branch='cse'
