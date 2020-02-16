@@ -1,0 +1,9 @@
+VARIABLES:
+we have variables of two types:
+	instance variable: as object changes,values changes.(defining inside variable)
+	class or static variable:it shares all the objects.(defining outside variable)
+METHODS:
+	instance method:two types/ accessor:fetching the value of instance variable eg:def get_x(self) hence called as getter methods.
+                                 \ mutator: modifying the value of instance variable eg:def set_x(self,value) hence called as setter methods.
+	class method
+	static method
