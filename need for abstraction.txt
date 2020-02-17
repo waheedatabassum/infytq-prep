@@ -1,0 +1,23 @@
+EXCEPTION HANDLING:
+ 	-TRY:test a block of code for errors.
+ 	-EXCEPT:lets you to handle the error.
+eg- try:
+        print(x)
+    except NameError:
+        print("hello")       //hence, output will be - hello.//
+ 
+another example:
+      try:
+        print(x)
+      except:
+        print("welcome")    //try will generate a NameError,because x is not defined//
+
+
+ 	-FINALLY:lets you to execute code.
+
+RAISE EXCEPTION:
+ raise is a keyword used.
+ a kind of error to be raised,and to text to print to the user.
+eg- x=-1
+    if x<0:
+       raise Exception ("sorry,no internet.")
